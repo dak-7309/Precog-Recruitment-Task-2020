@@ -21,16 +21,16 @@
 
 
 ## Task1
-Contains pdf file, i.e. Paper Summary for the paper "How Community Feedback Shapes User Behavior"
+- Contains pdf file, i.e. Paper Summary for the paper "How Community Feedback Shapes User Behavior"
 
 ## Task2
-Json Dump url- https://drive.google.com/file/d/1z7UdbqFJbSt510_Y3xYxUWPpEdS4Aknr/view?usp=sharing
-Task2 webapp contains code and images for Heroku app.
-Link for web app- https://daksh18137-webapp-precog-task2.herokuapp.com
-Contains ipynb and pdf files for codes and visualizations
+- Json Dump url- https://drive.google.com/file/d/1z7UdbqFJbSt510_Y3xYxUWPpEdS4Aknr/view?usp=sharing
+- Task2 webapp contains code and images for Heroku app.
+- Link for web app- https://daksh18137-webapp-precog-task2.herokuapp.com
+- Contains ipynb and pdf files for codes and visualizations
 
 ## Task3
-part a- Mongodb collection dump- https://drive.google.com/drive/folders/1NLy0D22iWmmspDeftazbg3duowa_J2p2?usp=sharing
-part b- Mongodb collection dump- https://drive.google.com/drive/folders/14qw08wbkrekkZ0qd1RI1fJpbn8U0DLlA?usp=sharing
-both parts contain ipynb and pdf files for code and visualizations
-part b contains report
+- part a- Mongodb collection dump- https://drive.google.com/drive/folders/1NLy0D22iWmmspDeftazbg3duowa_J2p2?usp=sharing
+- part b- Mongodb collection dump- https://drive.google.com/drive/folders/14qw08wbkrekkZ0qd1RI1fJpbn8U0DLlA?usp=sharing
+- both parts contain ipynb and pdf files for code and visualizations
+- part b contains report
