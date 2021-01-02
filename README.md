@@ -16,7 +16,8 @@
     │   └── task3a.pdf
     └── part b
         ├── task3b.ipynb
-        └── task3b.pdf
+        ├── task3b.pdf
+        └── report_task3b.pdf
 ```
 
 
