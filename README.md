@@ -4,34 +4,33 @@
 ## Folder Structure
 ```
 ├── README.md
-├── task1
-│   └── Summary.pdf
-├── task2
-│   ├── INDvsAUS.ipynb
-│   ├── INDvsAUS.pdf
-│   └── lang_code.png
-└── task3
-    ├── parta
-    │   ├── pdf_to_table_script.py
-    │   ├── table1.csv
-    │   └── table2.csv
-    └── partb
-        ├── report.ipynb
-        └── script.py
+├── Task1
+│   └── PaperSummary.pdf
+├── Task2
+│   ├── Task2 webapp
+│   ├── task2_precog.ipynb
+│   └── task2_precog.pdf
+└── Task3
+    ├── part a
+    │   ├── task3a.ipynb
+    │   └── task3a.pdf
+    └── part b
+        ├── task3b.ipynb
+        └── task3b.pdf
 ```
 
 
 ## Task1
-Added pdf file in `task1` folder.
-
+Contains pdf file, i.e. Paper Summary for the paper "How Community Feedback Shapes User Behavior"
 
 ## Task2
-Json Dump url: [tweets_dump](https://drive.google.com/file/d/1M5FEGd2BCb4e83i61Khg-mqIi6SC6At0/view?usp=sharing)
-code for conversion in `task2` folder.
+Json Dump url- https://drive.google.com/file/d/1z7UdbqFJbSt510_Y3xYxUWPpEdS4Aknr/view?usp=sharing
+Task2 webapp contains code and images for Heroku app.
+Link for web app- https://daksh18137-webapp-precog-task2.herokuapp.com
+Contains ipynb and pdf files for codes and visualizations
 
 ## Task3
-url for json dump for xml files: [json_dump](https://drive.google.com/drive/folders/1rAgHbnM6LFKMXDw9Y1A9nksrxZUKQI1F?usp=sharing)
-
-- `task3/parta/pdf_to_table_script.py` => script to convert pdf table to csv file
-- `task3/partb/script.py` => script to convert xml data to json data and post it on mongo server
-- `task3/partb/report.ipynb` => notebook containing the graphs and report.
+part a- Mongodb collection dump- https://drive.google.com/drive/folders/1NLy0D22iWmmspDeftazbg3duowa_J2p2?usp=sharing
+part b- Mongodb collection dump- https://drive.google.com/drive/folders/14qw08wbkrekkZ0qd1RI1fJpbn8U0DLlA?usp=sharing
+both parts contain ipynb and pdf files for code and visualizations
+part b contains report
