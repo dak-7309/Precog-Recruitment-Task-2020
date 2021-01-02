@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+
+	<body>
+		<div class="container mt-5">
+			<div class="row align-items-center">
+				<div class="col">
+					<h1 class="text-center">Precog Task 2 Web App</h1>
+					<h2 class="text-right">by Daksh Thapar (2018137)</h2>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col">
+					<form>
+						<div class="form-group row">
+							<p>1. Most Tweeted Hashtag in New Delhi<br/>2. Top 20 Users with most tweets<br/>3. Location Counts of Tweets<br/>4. Top 20 Locations of Tweets<br/>5. Top 20 Languages of Tweets<br/> 6. Top 20 dates of UserID creations<br/>7. Pie Chart for Follower Count<br/>8. Pie Chart for Friends Count<br/>9. Pie Chart for Listed Count<br/>10. Pie Chart for Favorites Count<br/>11. Pie Chart for Status Count<br/>12. Word Cloud for Tweets<br/>13. Word Cloud for Tweets (preprocessed)<br/><br/>Type in the serial number for the corresponding visualization</p>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inputText" placeholder="Enter Text">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-4 offset-2">
+								<button id="btn" type="button" class="btn btn-warning btn-block">Display Image</button>	
+							</div>
+							<div class="col-4">
+								<button id="btnRem" type="button" class="btn btn-danger btn-block">Clear Image</button>	
+							</div>
+						</div>	
+					</form>	
+					<img src="" id="disp" hidden class="img-fluid" alt="image">			
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+		<script>
+			document.getElementById("btn").addEventListener("click", function(){
+			var inputRec=document.getElementById("inputText").value;
+			if (inputRec=="1"){
+				document.getElementById("disp").src="./Screenshot 2020-12-26 at 1.46.25 PM.png";
+			}
+			if (inputRec=="2"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.41.24 PM.png";
+			}
+			if (inputRec=="3"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.41.39 PM.png";
+			}
+			if (inputRec=="4"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.11 PM.png";
+			}
+			if (inputRec=="5"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.18 PM.png";
+			}
+			if (inputRec=="6"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.28 PM.png";
+			}
+			if (inputRec=="7"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.38 PM.png";
+			}
+			if (inputRec=="8"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.44 PM.png";
+			}
+			if (inputRec=="9"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.42.51 PM.png";
+			}
+			if (inputRec=="10"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.43.00 PM.png";
+			}
+			if (inputRec=="11"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.43.05 PM.png";
+			}
+			if (inputRec=="12"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 6.43.17 PM.png";
+			}
+			if (inputRec=="13"){
+				document.getElementById("disp").src="./Screenshot 2021-01-02 at 8.22.02 PM.png";
+			}
+			document.getElementById("disp").hidden=false;
+			// console.log(document.getElementById("disp").src);
+			});
+			document.getElementById("btnRem").addEventListener("click", function(){
+				document.getElementById("inputText").value="";
+				document.getElementById("disp").hidden=true;
+			});
+		</script>
+	</body>
+</html>
