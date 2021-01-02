@@ -34,3 +34,12 @@
 - part b- Mongodb collection dump- https://drive.google.com/drive/folders/14qw08wbkrekkZ0qd1RI1fJpbn8U0DLlA?usp=sharing
 - both parts contain ipynb and pdf files for code and visualizations
 - part b contains report
+
+
+## References to external resources
+- https://www.geeksforgeeks.org/how-to-deploy-a-basic-static-html-website-to-heroku/
+- http://docs.tweepy.org/en/latest/
+- https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/twitter-data-in-python/
+- https://pymongo.readthedocs.io/en/stable/tutorial.html
+- https://docs.mongodb.com/guides/server/insert/
+- https://docs.mongodb.com/manual/reference/local-database/
